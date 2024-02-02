@@ -1,0 +1,17 @@
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+.heading {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    margin: 20px;
+  }
+}
